@@ -7,10 +7,10 @@ const fellLikeTemp = document.getElementById('feelsLike-data');
 const windSpeed = document.getElementById('windSpeed-data');
 const submit = document.getElementById('submit');
 
-//event listener 
+
 submit.addEventListener("click",getValue);
 
-//functions
+
 function getWeather(city){
   const endpoint = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=a8e71c9932b20c4ceb0aed183e6a83bb&units=kelvin`;
   fetch(endpoint)
@@ -45,8 +45,7 @@ function showWeatherData(weatherData){
     windSpeed.innerText ='--';
   }
  
-  // minTemp.innerText = weatherData.name;
- //windSpeed.innerText = ;
+ 
 
 
 }

@@ -11,13 +11,15 @@
 
 <body>
     <div class="my-weather">
-        <input type="text" placeholder="введите город">
-        <input type="button" value="поиск">
-        <div class="city">verginia</div>
-        <h2>облачно:</h2>
-        <p>температура:</p>
-        <p>ощущается как:</p>
-        <p>ветер:</p>
+        <input type="text" placeholder="введите город" id="city-search"><br>
+        <input type="button" value="поиск" id="search">
+        <div id="city"><span>---</span></div>
+        <h2><span id="mainWeathe">----</span></h2>
+        <div class="my-temp">
+            <p>температура:<span id="temp">----</span></p>
+            <p>ощущается как:<span id="feelsLike">----</span></p>
+            <p>ветер:<span id="windSpeed">----</span></p>
+        </div>
     </div>
 
 

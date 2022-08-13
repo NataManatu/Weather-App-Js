@@ -1,1 +1,7 @@
-
+let cityName = document.getElementById("cityName")
+let submit = document.getElementById("submit")
+let city = document.getElementById("city")
+let mainWeathe = document.getElementById("mainWeathe")
+let temp = document.getElementById("temp")
+let feelsLike = document.getElementById("feelsLike")
+let windSpeed = document.getElementById("windSpeed")
